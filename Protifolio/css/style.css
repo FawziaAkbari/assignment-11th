@@ -1,0 +1,119 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 570px;
+}
+
+header, 
+section {
+    padding: 100px 0;
+}
+
+
+.section-one {
+    background: #FFEAEA;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+h1,
+h2 {
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 42px;
+    margin-top: 0;
+    border-top: solid 1px #C4C4C4;
+    border-bottom: solid 1px #C4C4C4;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.describtion {
+    display: block;
+    font-weight: 900;
+}
+
+h1 .describtion {
+    font-size: 80px;
+}
+
+h2 .describtion {
+    font-size: 60px;
+}
+
+.small-text {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+a {
+    color: #99d930;
+    font-weight: 900;
+}
+
+a:hover, 
+a:focus {
+    color: #FFE;
+}
+
+.inverse {
+    background-color: #252525;
+    color: #fff;
+}
+
+.btn {
+    background-color: #99d930;
+    color: #252525;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 25px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #fff;
+    color: #252525;
+}
+
+.describtion, .article {
+    color: #99d930;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
