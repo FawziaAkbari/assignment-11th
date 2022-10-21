@@ -1,4 +1,5 @@
 import { tweetsData } from './data.js'
+// Because this link can not work I use hard coded UUID!
 // import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
 
 
@@ -55,7 +56,8 @@ function handleTweetBtnClick(){
             replies: [],
             isLiked: false,
             isRetweeted: false,
-            uuid: uuidv4()
+            // hard coded uuid
+            uuid: '4b161eee-c0f5-4545-9c4b-8562944223ee'
         })
     render()
     tweetInput.value = ''
