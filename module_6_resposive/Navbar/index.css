@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* =============
+    Typogeaphy
+   ============*/
+h1 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #143774;
+    margin: 0;
+
+}
+
+.subtitle {
+    font-weight: 700;
+    color: #1792d2;
+    font-size: .75rem;
+    margin: 0;
+}
+
+/* =============
+    Layout
+   ============*/
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    border:1px solid red;
+} 
+
+.container-nav {
+    display: flex;
+    justify-content: space-between
+}
+
+header {
+    text-align: center;
+    background: #f8f8f8;
+    padding: 2em 0;
+}
+
+/* ================
+    Navigation-Bar
+   ===============*/
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin-left: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #707070;
+    font-weight: 700;
+    padding: .25em 0;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #1792d2;
+}
+
+.current-page {
+    border-bottom: solid 1px #707070;
+}
+
+.current-page:hover {
+    color: #707070;
+}
+
+@media (max-width: 675px) {
+    .container-nav,
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: .5em 0;
+    }
+
+    header {
+        text-align: center;
+    }
+}
